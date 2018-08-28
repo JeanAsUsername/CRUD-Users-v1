@@ -1,0 +1,15 @@
+
+.footer {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	background-color: rgb(20, 20, 20)
+}
+
+.footer__copyright > p {
+	
+	color: white;
+}
+

@@ -1,0 +1,95 @@
+
+/* reset */
+
+*, *::before, *::after {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+/* Content */
+
+.content {
+	height: 77vh;
+	min-height: fit-content;
+	padding: 3rem;
+	display: flex;
+	justify-content: center;
+}
+
+.content__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	font-size: 15px;
+	font-family: sans-serif;
+}
+
+.form__container {
+	margin-bottom: 0.5rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+}
+
+.form__caption {
+	text-align: center;
+}
+
+.form__field {
+	padding: 0.2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.form__field > label {
+	margin-bottom: 0.2rem;
+}
+
+.form__field > input {
+	padding: 0.2rem;
+	margin-bottom: 0.6rem;
+	
+	font-size: 15px;
+}
+
+.form__submit {
+	margin: 0 auto;
+	border: 0;
+	
+	background: none;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 600;
+	text-decoration: underline;
+	transition: color 200ms;
+	cursor: pointer;
+}
+
+.form__submit:hover {
+	color: rgb(80, 80, 80);
+}
+
+.form__cancel {
+	
+	color: black;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+/* -------- USER -------- */
+
+.field__language, .field__username {
+	padding: 0.3rem;
+	margin: 0.3rem;
+}
+
+
+
+
